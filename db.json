@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John",
+      "email": "john@example.com",
+      "age": 18,
+      "dateOfBirth": "12-12-1994",
+      "address": {
+        "city": "Lahore",
+        "state": "Cairo",
+        "zipCode": "123"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Tom",
+      "email": "Tom@example.com",
+      "age": 20,
+      "dateOfBirth": "1-12-1998",
+      "address": {
+        "city": "Karachi",
+        "state": "California",
+        "zipCode": "123"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Jack",
+      "email": "Jack@example.com",
+      "age": 25,
+      "dateOfBirth": "12-03-1997",
+      "address": {
+        "city": "Lahore",
+        "state": "Cairo",
+        "zipCode": "123"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Faisal",
+      "email": "faisal@example.com",
+      "age": 18,
+      "dateOfBirth": "10-08-2001",
+      "address": {
+        "city": "Lahore",
+        "state": "Punjab",
+        "zipCode": "123"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Feroz",
+      "email": "feroz@example.com",
+      "age": 24,
+      "dateOfBirth": "10-08-1997",
+      "address": {
+        "city": "Lahore",
+        "state": "Punjab",
+        "zipCode": "123"
+      }
+    }
+  ]
+}
