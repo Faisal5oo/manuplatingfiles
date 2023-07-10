@@ -1,5 +1,6 @@
 const { getAllUsers } = require("./crudOperations");
 const { createUser } = require("./crudOperations/createNewUser");
+const { deleteUser } = require("./crudOperations/deleteUser");
 const { updateUser } = require("./crudOperations/updateUser");
 
 // getAllUsers("http://localhost:3001/users")
@@ -25,4 +26,5 @@ const user = {
 
 // "http://localhost:3001/users"
 
-updateUser("http://localhost:3001/users/5", user);
+// updateUser("http://localhost:3001/users/5", user);
+deleteUser("http://localhost:3001/users/5", user);
