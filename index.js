@@ -1,5 +1,7 @@
 const { getAllUsers } = require("./crudOperations");
 const { createUser } = require("./crudOperations/createNewUser");
+const { deleteUser } = require("./crudOperations/deleteUser");
+const { updateUser } = require("./crudOperations/updateUser");
 
 // getAllUsers("http://localhost:3001/users")
 //   .then((result) => {
@@ -11,8 +13,8 @@ const { createUser } = require("./crudOperations/createNewUser");
 
 const user = {
   id: 5,
-  name: "Feroz",
-  email: "feroz@example.com",
+  name: "Feroz Khan",
+  email: "ferozkhan@example.com",
   age: 24,
   dateOfBirth: "10-08-1997",
   address: {
@@ -22,4 +24,7 @@ const user = {
   },
 };
 
-createUser("http://localhost:3001/users", user);
+// "http://localhost:3001/users"
+
+// updateUser("http://localhost:3001/users/5", user);
+deleteUser("http://localhost:3001/users/5", user);
